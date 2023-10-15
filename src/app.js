@@ -40,6 +40,8 @@ app.get('/products/:pid', async (req, res) => {
   const { pid } = req.params
 
 
+
+
   if (pid) {
 
 

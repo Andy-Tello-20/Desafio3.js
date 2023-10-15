@@ -32,11 +32,12 @@ class ProductManager {
         if (buscarPorID) {
             console.log("el producto encontrado fue:", buscarPorID)
 
-            //Si no lo retornaba nunca lo iba a ver en la pantalla 🤦‍♂️
+            //Si no lo retornaba nunca lo iba a ver en la pantalla del navegador 🤦‍♂️
             return buscarPorID
 
         } else {
-            console.log("no se encontro ningun producto")
+            let mensaje = "no se encontro ningun producto 😪"
+            return mensaje
         }
 
     }
